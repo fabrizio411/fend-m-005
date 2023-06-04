@@ -94,6 +94,11 @@ main {
     font-size: 0.9rem;
 }
 
+.plan-box a:hover {
+    cursor: pointer;
+    color: hsla(245, 75%, 52%, 0.767);
+}
+
 .btn {
     width: 100%;
     height: 3rem;
@@ -108,15 +113,22 @@ main {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.767);
+}
+
 .cancel-btn {
     cursor: pointer;
     font-weight: 900;
     margin-bottom: 0.5rem;
     color: hsl(224, 23%, 55%);
     font-size: 0.9rem;
-
+    padding: 0.5rem;
 }
 
+.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
 
 
 @media (min-width: 400px) {
