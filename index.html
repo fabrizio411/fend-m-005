@@ -7,31 +7,34 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="./css/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
-  Order Summary
+  <main>
+    <img class="main-img" src="./images/illustration-hero.svg" alt="enjoing music">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <div class="container">
+      <h1 class="title">Order Summary</h1>
+      <p class="text">  You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+      
+        <div class="plan-box">
+          <img src="./images/icon-music.svg" alt="music icon">
+          <div class="price-box">
+            <span class="plan">Anual Plan</span>
+            <span class="price">$55.99/year</span>
+          </div>
+          <span><a>Change</a></span>
+        </div>
 
-  Annual Plan
-  $59.99/year
+        <button class="btn">Proceed to Payment</button>
+        <p class="cancel-btn">Cancel Order</p>
+    </div>
 
-  Change
+  </main>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>

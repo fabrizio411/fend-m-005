@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(225, 100%, 94%);
+}
+
+
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.main-img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.text {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    width: 17rem;
+    margin: 1rem 0;
+    line-height: 1.6rem;
+}
+
+.plan-box {
+    margin: 0.5rem 0;
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.plan-box img {
+    margin-right: 1rem;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.plan {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+}
+
+.plan-box a {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.btn {
+    width: 100%;
+    height: 3rem;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+    font-size: 0.9rem;
+    box-shadow: 0 1rem 1rem hsl(224, 52%, 85%);
+    cursor: pointer;
+}
+
+.cancel-btn {
+    cursor: pointer;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+
+}
+
+
+
+@media (min-width: 400px) {
+    main {
+        width: 25rem;
+        box-shadow: 0 1rem 2rem hsl(224, 84%, 88%);
+    }
+
+    body {
+        background: url(../images/pattern-background-desktop.svg);
+        background-repeat:space;
+        background-size: 100%;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .price-box {
+
+        margin-right: 5rem;
+    }
+}
